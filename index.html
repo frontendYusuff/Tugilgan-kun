@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tug‘ilgan kuning muborak, Nur yuzligim!</title>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fffafc;--surface:#fff;--ink:#3a3347;--muted:#6b6379;--rose:#ffcfe1;--sky:#d9ebff;--mint:#e4f6ee;--line:#efdfe7;--b1:#ffbfd7;--b2:#ffdcc4;--glow:rgba(238,110,160,.55);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1a1723;--surface:#252131;--ink:#f8f0f6;--muted:#c5bbd1;--rose:#6e3b58;--sky:#27415f;--mint:#21403a;--line:#3a3449;--b1:#8a4a6a;--b2:#74506f;--glow:rgba(0,0,0,.55)}}
+:root[data-theme="dark"]{--bg:#1a1723;--surface:#252131;--ink:#f8f0f6;--muted:#c5bbd1;--rose:#6e3b58;--sky:#27415f;--mint:#21403a;--line:#3a3449;--b1:#8a4a6a;--b2:#74506f;--glow:rgba(0,0,0,.55)}
+*{box-sizing:border-box;margin:0}
+body{font-family:Quicksand,system-ui,sans-serif;font-weight:500;color:var(--ink);background:var(--bg);line-height:1.6;overflow-x:hidden}
+.i{display:inline-block;width:1em;height:1em;vertical-align:-.14em;margin-left:.12em}
+.hero{position:relative;isolation:isolate;display:grid;place-content:center;justify-items:center;text-align:center;min-height:82vh;min-height:82svh;padding:56px 22px;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(48vmax 48vmax at 10% 6%,var(--rose),transparent 62%),radial-gradient(46vmax 46vmax at 94% 94%,var(--sky),transparent 62%)}
+h1{font-weight:700;font-size:clamp(2.3rem,7.2vw,4.6rem);line-height:1.12;letter-spacing:-.015em;max-width:11em;margin-bottom:16px}
+h1 .i{width:.85em;height:.85em}
+.sub{color:var(--muted);font-size:1.1rem;margin-bottom:30px}
+.hero>*{animation:rise .8s both}.hero>:nth-child(2){animation-delay:.12s}.hero>:nth-child(3){animation-delay:.24s}
+.wrap{max-width:38rem;margin:0 auto;padding:0 22px}
+.letter{padding:72px 0 56px}
+.letter p{font-size:1.15rem;line-height:1.85;margin-bottom:1.4em}
+.letter .end{font-size:clamp(1.4rem,4vw,1.8rem);font-weight:700;line-height:1.4;margin:1.6em 0 0}
+.out{padding:0 14px 64px}
+.invite{max-width:40rem;margin:0 auto;background:var(--mint);border-radius:32px;padding:48px 22px;text-align:center}
+.em{display:grid;place-items:center;width:84px;height:84px;margin:0 auto 18px;border-radius:50%;background:var(--surface);box-shadow:0 12px 26px -14px rgba(60,40,80,.45)}
+.em svg{width:54px;height:54px}
+h2{font-weight:700;font-size:clamp(1.7rem,5vw,2.3rem);line-height:1.2;margin-bottom:10px}
+.invite p{color:var(--muted)}
+.btn{display:inline-flex;align-items:center;gap:12px;font:inherit;font-weight:700;font-size:1.05rem;color:var(--ink);background:linear-gradient(135deg,var(--b1),var(--b2));border:0;border-radius:99px;padding:8px 28px 8px 8px;cursor:pointer;box-shadow:0 12px 24px -12px var(--glow),inset 0 1px 0 rgba(255,255,255,.55);transition:transform .2s,box-shadow .2s,scale .25s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 16px 28px -12px var(--glow),inset 0 1px 0 rgba(255,255,255,.55)}
+.btn:active{transform:translateY(1px)}
+.btn .ic{display:grid;place-items:center;flex:none;width:44px;height:44px;border-radius:50%;background:var(--surface)}
+.btn .ic svg{width:22px;height:22px}
+.btn.ghost{background:var(--surface);box-shadow:inset 0 0 0 2px var(--line)}
+.btn.ghost:hover{box-shadow:inset 0 0 0 2px var(--ink)}
+.btn.ghost .ic{background:var(--bg)}
+.btn:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+#btns{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;align-items:center;min-height:104px;margin-top:22px}
+#done .big{font-size:1.7rem;font-weight:700;color:var(--ink);margin-bottom:6px}
+#done .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:24px}
+#cf{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:40}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="party" viewBox="0 0 48 48"><path d="M7 41 17 15 33 31z" fill="#ffc861"/><path d="M12 28 26 24M9.5 35 23 33" stroke="#ff8fb3" stroke-width="2.5" stroke-linecap="round"/><path d="M26 17l3-4M35 25l5-1" stroke="#8fc7ff" stroke-width="3" stroke-linecap="round"/><circle cx="36" cy="12" r="2.8" fill="#ff8fb3"/><circle cx="40" cy="33" r="2.5" fill="#7fd8ae"/><circle cx="25" cy="8" r="2.5" fill="#c9a7ff"/></symbol>
+  <symbol id="heart" viewBox="0 0 48 48"><path d="M24 42S8 31.6 8 20a9 9 0 0 1 16-5.6A9 9 0 0 1 40 20c0 11.6-16 22-16 22z" fill="#ff7fa6"/><path d="M14 18a5 5 0 0 1 5-5" stroke="#fff" stroke-width="2.5" stroke-linecap="round" fill="none" opacity=".75"/></symbol>
+  <symbol id="hearts" viewBox="0 0 48 48"><path d="M20 40S6 30.6 6 20.5a8 8 0 0 1 14-5.2 8 8 0 0 1 14 5.2C34 30.6 20 40 20 40z" fill="#ff9dbb"/><path transform="translate(24 2) scale(.6)" d="M24 42S8 31.6 8 20a9 9 0 0 1 16-5.6A9 9 0 0 1 40 20c0 11.6-16 22-16 22z" fill="#8fc7ff"/></symbol>
+  <symbol id="flower" viewBox="0 0 48 48"><path d="M24 26v18" stroke="#6fcf9f" stroke-width="3" stroke-linecap="round"/><path d="M24 40c-7 0-10-3-10-7 7 0 10 3 10 7z" fill="#7fd8ae"/><g fill="#ff9dbb"><circle cx="24" cy="9.5" r="6.5"/><circle cx="33" cy="16.1" r="6.5"/><circle cx="29.6" cy="26.7" r="6.5"/><circle cx="18.4" cy="26.7" r="6.5"/><circle cx="15" cy="16.1" r="6.5"/></g><circle cx="24" cy="19" r="5" fill="#ffd36b"/></symbol>
+  <symbol id="lips" viewBox="0 0 48 48"><path d="M5 25c4-6 9-9 14-8 3 .5 4 2 5 3 1-1 2-2.5 5-3 5-1 10 2 14 8-5 9-12 14-19 14S10 34 5 25z" fill="#ff7f9f"/><path d="M7 25c11 3 23 3 34 0" stroke="#d94f77" stroke-width="2.5" fill="none" stroke-linecap="round"/></symbol>
+  <symbol id="sushi" viewBox="0 0 48 48"><rect x="8" y="26" width="32" height="15" rx="7.5" fill="#fff" stroke="#e5cfd9" stroke-width="2"/><path d="M5 27c0-9 9-14 19-14s19 5 19 14c0 2-4 3-19 3S5 29 5 27z" fill="#ff9a86"/><path d="M16 17l-3 10M25 15l-2 12M34 17l-3 10" stroke="#ffc9ba" stroke-width="2.5" stroke-linecap="round"/><rect x="21" y="14" width="7" height="24" rx="2" fill="#3b4a46" opacity=".9"/></symbol>
+  <symbol id="down" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="x" viewBox="0 0 24 24"><path d="M7 7l10 10M17 7L7 17" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></symbol>
+  <symbol id="check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="3"/><path d="M15 9V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v5a3 3 0 0 0 3 3h2"/></g></symbol>
+  <symbol id="redo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 5v6h-6"/></g></symbol>
+</svg>
+<canvas id="cf" aria-hidden="true"></canvas>
+
+<header class="hero">
+  <h1>Tug‘ilgan kuning muborak, Nur yuzligim! <svg class="i" aria-hidden="true"><use href="#party"/></svg><svg class="i" aria-hidden="true"><use href="#heart"/></svg></h1>
+  <p class="sub">Bugun faqat sen uchun yozilgan kichik xat.</p>
+  <button class="btn" id="go"><span class="ic"><svg aria-hidden="true"><use href="#down"/></svg></span>Xatni o‘qi</button>
+</header>
+
+<main>
+  <section class="wrap letter" id="xat">
+    <p>Sen bilan har bir suhbat kulgiga, har bir uchrashuv chiroyli xotiraga aylanadi. Quvnoqliging, samimiyliging va chin dugonaliging uchun seni juda qadrlayman. Yaxshi kunimda birga kuladigan, qiyin paytimda yonimda turadigan sendek dugonam borligidan baxtliman! <svg class="i" aria-hidden="true"><use href="#hearts"/></svg></p>
+    <p>Doim shunday kulib yur, ko‘zlaring faqat quvonchdan porlasin. Qalbingdagi eng go‘zal orzularing ushalib, mehr va baxt ichida yasha.</p>
+    <p class="end">Yaxshiyam borsan, qadrdonim! Seni yaxshi ko‘raman! <svg class="i" aria-hidden="true"><use href="#flower"/></svg><svg class="i" aria-hidden="true"><use href="#lips"/></svg></p>
+  </section>
+
+  <div class="out">
+    <section class="invite" aria-live="polite">
+      <div class="em"><svg aria-hidden="true"><use href="#sushi"/></svg></div>
+      <h2>Tug‘ilgan kuningni sushi bilan nishonlaymizmi?</h2>
+      <div id="ask">
+        <p>Vaqtini o‘zing tanla: xohlagan paytingda boramiz.</p>
+        <div id="btns">
+          <button class="btn" id="yes"><span class="ic"><svg aria-hidden="true"><use href="#sushi"/></svg></span>Ha, boraman!</button>
+          <button class="btn ghost" id="no"><span class="ic"><svg aria-hidden="true"><use href="#x"/></svg></span><span id="nl">Yo‘q</span></button>
+        </div>
+      </div>
+      <div id="done" hidden>
+        <p class="big">Kelishdik!</p>
+        <p>Xohlagan paytingda ayt — sushiga boramiz. Joyni o‘zim aytaman, hisob — mendan!</p>
+        <div class="row">
+          <button class="btn" id="cp"><span class="ic"><svg aria-hidden="true"><use href="#copy"/></svg></span><span id="cpl">Javobni nusxalash</span></button>
+          <button class="btn ghost" id="re"><span class="ic"><svg aria-hidden="true"><use href="#redo"/></svg></span>Qayta tanlash</button>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<script>
+const $=s=>document.querySelector(s);
+
+/* konfetti: yurak, doira va tasma shakllari */
+const cv=$('#cf'),cx=cv.getContext('2d'),C=['#ff9dbb','#8fc7ff','#ffd36b','#7fd8ae','#c9a7ff'];let P=[],run=false;
+const fit=()=>{cv.width=innerWidth;cv.height=innerHeight};fit();addEventListener('resize',fit);
+function boom(x,y,n=90){
+  for(let i=0;i<n;i++)P.push({x,y,vx:(Math.random()-.5)*15,vy:-Math.random()*14-3,r:Math.random()*6,k:i%3,c:C[i%C.length],s:6+Math.random()*7,l:90+Math.random()*60});
+  if(!run){run=true;requestAnimationFrame(tick)}}
+function tick(){cx.clearRect(0,0,cv.width,cv.height);P=P.filter(p=>p.l>0);
+  P.forEach(p=>{p.vy+=.35;p.x+=p.vx;p.y+=p.vy;p.vx*=.99;p.l--;
+    cx.save();cx.globalAlpha=Math.min(1,p.l/30);cx.translate(p.x,p.y);cx.rotate(p.r+=.05);cx.fillStyle=p.c;cx.beginPath();
+    const s=p.s;
+    if(p.k===0)cx.arc(0,0,s*.6,0,7);
+    else if(p.k===1)cx.rect(-s,-s*.3,s*2,s*.6);
+    else{cx.moveTo(0,s*.7);cx.bezierCurveTo(-s*1.3,-s*.3,-s*.5,-s*1.1,0,-s*.4);cx.bezierCurveTo(s*.5,-s*1.1,s*1.3,-s*.3,0,s*.7)}
+    cx.fill();cx.restore()});
+  if(P.length)requestAnimationFrame(tick);else{run=false;cx.clearRect(0,0,cv.width,cv.height)}}
+
+$('#go').onclick=e=>{$('#xat').scrollIntoView({behavior:'smooth'});boom(e.clientX,e.clientY,40)};
+
+/* taklif */
+const no=$('#no'),yes=$('#yes'),T=['Yo‘q','Ishonchlimisan?','Sushi-chi?!','Iltimos','Baribir “Ha” bosasan'];let nt=0;
+function dodge(e){e.preventDefault();nt++;$('#nl').textContent=T[Math.min(nt,T.length-1)];
+  const w=$('#btns').getBoundingClientRect().width;
+  no.style.transform=`translate(${(Math.random()-.5)*Math.min(w-190,240)}px,${(Math.random()-.5)*64}px)`;
+  yes.style.scale=Math.min(1+nt*.08,1.35)}
+no.addEventListener('pointerenter',dodge);no.addEventListener('pointerdown',dodge);
+
+yes.onclick=e=>{$('#ask').hidden=true;$('#done').hidden=false;boom(e.clientX||innerWidth/2,e.clientY||innerHeight/2,120)};
+$('#re').onclick=()=>{$('#done').hidden=true;$('#ask').hidden=false;nt=0;$('#nl').textContent=T[0];no.style.transform='';yes.style.scale=1;
+  $('#cpl').textContent='Javobni nusxalash';$('#cp').querySelector('use').setAttribute('href','#copy')};
+$('#cp').onclick=async()=>{
+  try{await navigator.clipboard.writeText('Ha, boraman! Xohlagan paytingda sushiga boramiz.');
+    $('#cpl').textContent='Nusxalandi';$('#cp').querySelector('use').setAttribute('href','#check')}
+  catch(x){$('#cpl').textContent='Nusxalab bo‘lmadi'}};
+</script>
+</body>
+</html>
